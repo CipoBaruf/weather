@@ -1,13 +1,11 @@
-import * as React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
-import { CurrentWeather } from "./features/currentWeather/CurrentWeather";
+import { SearchByLocation } from "./features/searchByLocation/SearchByLocation";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<CurrentWeather />} />
+        <Route path="/" element={<SearchByLocation />} />
       </Routes>
     </div>
   );
